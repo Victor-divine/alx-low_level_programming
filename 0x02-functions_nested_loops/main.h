@@ -1,18 +1,5 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
+int _putchar(char c)
 
-void print_message(void)
-{
-	printf("_putchar\n");
-	return;
-}
-
-void print_alphabet()
-{
-	char min = 'a';
-	while (min <= 'a')
-	{
-		printf("%c", min);
-		min++;
-	}
-
-}
+#endif
