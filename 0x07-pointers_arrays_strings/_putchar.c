@@ -6,7 +6,7 @@ void print_message(void)
 	return;
 }
 
-void print_alphabet(void)
+void print_alphabet()
 {
 	char min = 'a';
 	while (min <= 'a')
