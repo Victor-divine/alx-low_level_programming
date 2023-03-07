@@ -1,18 +1,14 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
-void print_message(void)
+/**
+ * _putchar - writes the character c to stout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set appropriately.
+ */
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return;
+	return (write(1, &c, 1));
 }
-
-void print_alphabet()
-{
-	char min = 'a';
-	while (min <= 'a')
-	{
-		printf("%c", min);
-		min++;
-	}
-}
-
